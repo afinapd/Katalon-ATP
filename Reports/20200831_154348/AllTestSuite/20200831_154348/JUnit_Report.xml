@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AllTestSuite" time="37.767" tests="2" failures="0" errors="0">
+   <testsuite name="AllTestSuite" tests="2" failures="0" errors="0" time="37.767" timestamp="2020-08-31 15:43:51" hostname="afinapd - DESKTOP-TPNGT8A" id="Test Suites/AllTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\afinapd\\git\\Katalon-ATP\\Reports\\20200831_154348\\AllTestSuite\\20200831_154348"/>
+         <property name="logFiles" value="C:\\Users\\afinapd\\git\\Katalon-ATP\\Reports\\20200831_154348\\AllTestSuite\\20200831_154348\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="afinapd - DESKTOP-TPNGT8A"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.83"/>
+         <property name="hostAddress" value="192.168.43.173"/>
+         <property name="sessionId" value="95aa9d830120e7c52076fe2a33b2f9bb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alert" time="11.615" classname="Test Cases/Alert" status="PASSED">
+         <system-out><![CDATA[2020-08-31 15:43:52 - [TEST_CASE][PASSED] - Test Cases/Alert: Test Cases/Alert
+
+2020-08-31 15:43:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 15:43:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 15:43:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 15:43:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 15:43:58 - [TEST_STEP][PASSED] - navigateToUrl("http://testautomationpractice.blogspot.com/"): Navigate to 'http://testautomationpractice.blogspot.com/' successfully
+
+2020-08-31 15:44:03 - [MESSAGE][PASSED] - Navigate to 'http://testautomationpractice.blogspot.com/' successfully
+
+2020-08-31 15:44:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Testing Practice/button_Click Me")): Object: 'Object Repository/Page_Automation Testing Practice/button_Click Me' is clicked on
+
+2020-08-31 15:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Testing Practice/button_Click Me' is clicked on
+
+2020-08-31 15:44:03 - [TEST_STEP][PASSED] - verifyAlertPresent(0): Alert is present after 30 second(s).
+
+2020-08-31 15:44:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-08-31 15:44:03 - [MESSAGE][PASSED] - Alert is present after 30 second(s).]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DatePicker" time="24.636" classname="Test Cases/DatePicker" status="PASSED">
+         <system-out><![CDATA[2020-08-31 15:44:03 - [TEST_CASE][PASSED] - Test Cases/DatePicker: Test Cases/DatePicker
+
+2020-08-31 15:44:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 15:44:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-08-31 15:44:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 15:44:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 15:44:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 15:44:08 - [TEST_STEP][PASSED] - navigateToUrl("http://testautomationpractice.blogspot.com/"): Navigate to 'http://testautomationpractice.blogspot.com/' successfully
+
+2020-08-31 15:44:11 - [MESSAGE][PASSED] - Navigate to 'http://testautomationpractice.blogspot.com/' successfully
+
+2020-08-31 15:44:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Testing Practice/input_Date Picker_datepicker")): Object: 'Object Repository/Page_Automation Testing Practice/input_Date Picker_datepicker' is clicked on
+
+2020-08-31 15:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Testing Practice/input_Date Picker_datepicker' is clicked on
+
+2020-08-31 15:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Automation Testing Practice/a_6")): Object: 'Object Repository/Page_Automation Testing Practice/a_6' is clicked on
+
+2020-08-31 15:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Automation Testing Practice/a_6' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-31 15:43:51 - [TEST_SUITE][PASSED] - AllTestSuite: Test Cases/DatePicker]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
